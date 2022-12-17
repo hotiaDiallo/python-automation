@@ -12,4 +12,11 @@
 - clean up the oldest volumes snapshots
 ## [Restore volume from a snapshots](https://github.com/hotiaDiallo/python-automation/blob/main/restore-volume-from-backup.py)
 - restore volume from last created snapshot and attached it to a EC2 instance
-## Next : coming soon
+## [Monitor website runnin as docker container](https://github.com/hotiaDiallo/python-automation/blob/main/monitor-website.py)
+- We are going to create a Linode machine 
+- Install docker on Linode ([Link to install docker](https://docs.docker.com/engine/install/debian/))
+- Run a nginx container 
+```commandline
+docker run -d -p 8080:80 nginx
+```
+- monitor the application
